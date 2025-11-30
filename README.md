@@ -69,7 +69,7 @@ Aqui você pode ver a evolução visual do projeto, desde a primeira versão at�
 
 > A versão atual conta com interface CustomTkinter, Modo Escuro nativo e ícones integrados.
 
-| Tela Inicial | Produção |
+| Tela Inicial | Corte |
 | :---: | :---: |
 | ![Home](Screenshots/v2.0/telainicial.png) | ![Estoque](Screenshots/v2.0/corte.png) |
 
