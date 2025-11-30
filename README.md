@@ -47,3 +47,16 @@ O **TexFlow** é uma solução completa desenvolvida em Python para gerenciar o 
     - `pyinstaller` (Compilação EXE)
 
 ---
+
+📦 Instalação (Para Clientes)
+Baixe a última versão na aba Releases.
+
+Coloque o arquivo TexFlow.exe em uma pasta de sua preferência.
+
+Execute o programa.
+
+Na primeira execução, digite seu Nome de Cliente para ativar a licença e conectar ao banco de dados.
+
+---
+
+Desenvolvido por SugarFoot Versão Atual: 2.0
