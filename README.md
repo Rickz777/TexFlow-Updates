@@ -59,4 +59,37 @@ Na primeira execução, digite seu Nome de Cliente para ativar a licença e cone
 
 ---
 
+## 📸 Galeria de Evolução (Screenshots)
+
+Aqui você pode ver a evolução visual do projeto, desde a primeira versão até o design moderno atual.
+
+<details>
+<summary><strong>✨ Versão 2.0 (Atual - Design Moderno & Dark Mode)</strong></summary>
+<br>
+
+> A versão atual conta com interface CustomTkinter, Modo Escuro nativo e ícones integrados.
+
+| Tela Inicial | Produção |
+| :---: | :---: |
+| ![Home](Screenshots/v2.0/telainicial.png) | ![Estoque](Screenshots/v2.0/corte.png) |
+
+| Produção | Vendas |
+| :---: | :---: |
+| ![Cadastro](Screenshots/v2.0/producao.png) | ![Vendas](Screenshots/v2.0/estoque.png) |
+
+</details>
+
+<details>
+<summary><strong>🏚️ Versão 1.0 (Legado - Visual Clássico)</strong></summary>
+<br>
+
+> A primeira versão utilizava interface nativa do Windows (Tkinter Padrão) e layout cinza.
+
+![Versão 1.0 Geral](Screenshots/v1.0/telainicial.png)
+
+</details>
+
+
+---
+
 Desenvolvido por SugarFoot Versão Atual: 2.0
