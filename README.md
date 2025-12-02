@@ -1,3 +1,69 @@
+# 👕 TexFlow 3.0 (Enterprise Edition)
+
+**Sistema Integrado de Gestão para Confecções Têxteis (SaaS).**
+
+O **TexFlow** evoluiu de um simples gerenciador de estoque para uma plataforma completa de gestão têxtil baseada em nuvem, com segurança de nível bancário e controle de licenciamento.
+
+![Status](https://img.shields.io/badge/Status-Production-green)
+![Versão](https://img.shields.io/badge/Version-3.0-blue)
+![Database](https://img.shields.io/badge/MongoDB-Atlas-forestgreen)
+![Security](https://img.shields.io/badge/Encryption-AES256-red)
+
+---
+
+## 🚀 O Que Há de Novo na v3.0?
+
+### 🔐 Segurança & Licenciamento (SaaS)
+* **Validação em Tempo Real:** O sistema verifica a licença do cliente a cada inicialização, consultando servidores de hora mundial (NTP) para evitar fraudes de relógio.
+* **Alertas de Vencimento:** Barra de notificação visual (Laranja/Vermelha) no rodapé quando a licença está próxima do fim.
+* **Bloqueio Automático:** Suspensão automática de acesso após o período de carência, com gestão remota pelo administrador.
+
+### 📢 Comunicação em Tempo Real
+* **Central de Avisos:** Sistema de broadcast onde o administrador pode enviar notificações (Manutenção, Cobrança, Avisos Gerais) que aparecem instantaneamente na tela de todos os usuários ativos.
+
+### 🛡️ Infraestrutura Blindada
+* **Criptografia de Ponta a Ponta:** As conexões com o banco de dados são criptografadas com chave simétrica (Fernet/AES). O arquivo de configuração local é protegido e oculto do usuário final.
+* **Multi-Tenant:** Arquitetura preparada para múltiplos clientes isolados, com bancos de dados segregados e busca automática de credenciais em repositório privado.
+
+---
+
+## 📦 Funcionalidades Principais
+
+### 🏭 Chão de Fábrica
+- **Rastreamento Total:** Controle de Lotes (Corte -> Costura -> Acabamento -> Estoque).
+- **Materiais:** Suporte completo a **Algodão, Peruana, Suedine e Moletom**.
+- **Status Dinâmico:** Atualização automática baseada no setor do prestador de serviço.
+
+### 💰 Comercial & Estoque
+- **Venda Rápida:** Baixa de estoque intuitiva com proteção contra cliques duplos.
+- **Estorno Seguro:** Função "Desfazer Venda" que corrige lançamentos errados e devolve os itens ao estoque automaticamente.
+- **Visão Geral:** Painel com totais separados por tipo de tecido em tempo real.
+
+### 🎨 Interface (UI/UX)
+- **Modo Escuro/Claro:** Alternância nativa de temas.
+- **Responsividade:** Adaptação automática para telas de baixa resolução (Notebooks/720p) com barras de rolagem inteligentes.
+- **Menu de Ajustes:** Nova central de configurações (Engrenagem) para gestão da conta e suporte.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+- **Core:** Python 3.11
+- **GUI:** CustomTkinter (Modern Design)
+- **Database:** MongoDB Atlas (NoSQL)
+- **Security:** Cryptography (Fernet)
+- **Deploy:** PyInstaller (Single-file EXE)
+
+---
+
+## 📞 Suporte
+
+Dúvidas ou problemas técnicos?
+Acesse o menu de **Configurações (⚙️)** dentro do sistema e clique em **"Falar com Suporte"** para atendimento via WhatsApp.
+
+---
+**Desenvolvido por SugarFoot** *© 2025 TexFlow Systems*
+
 # 👕 TexFlow 2.0
 
 **Sistema Inteligente de Gestão para Confecções Têxteis.**
